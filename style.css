@@ -1,0 +1,79 @@
+.grafos {
+  float: right;
+  padding-top: 10vh;
+  margin-left: auto;
+}
+
+.opitionsGrafos {
+  display: flex;
+}
+
+.content {
+  width: 95vw;
+  display: flex;
+}
+
+#grafo,
+.canvasGrafo,
+.grafos {
+  width: 45vw;
+}
+
+div.grafo {
+  height: 150px;
+  width: 150px;
+  opacity: 0.8;
+  margin: 2px;
+  font: 20pt verdana;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 110pt;
+  cursor: pointer;
+}
+
+#prim {
+  background: #8b4726;
+  border: 3px solid #8b4726;
+  width: 630px;
+}
+#prim:hover {
+  background: #ffffff;
+  color: #8b4726;
+}
+
+#grafo1 {
+  background: #ff0000;
+  border: 3px solid #ff0000;
+}
+#grafo1:hover {
+  background: #ffffff;
+  color: #ff0000;
+}
+
+#grafo2 {
+  background: #007aff;
+  border: 3px solid #007aff;
+}
+#grafo2:hover {
+  background: #ffffff;
+  color: #007aff;
+}
+
+#grafo3 {
+  background: #fa6e00;
+  border: 3px solid #fa6e00;
+}
+#grafo3:hover {
+  background: #ffffff;
+  color: #fa6e00;
+}
+
+#grafo4 {
+  background: #800080;
+  border: 3px solid #800080;
+}
+#grafo4:hover {
+  background: #ffffff;
+  color: #800080;
+}
