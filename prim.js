@@ -2,9 +2,11 @@ var HeapSorter = {
   parent: function (i) {
     return Math.floor(i + 1 / 2) - 1;
   },
+
   left: function (i) {
     return 2 * (i + 1) - 1;
   },
+
   right: function (i) {
     return 2 * (i + 1);
   },
@@ -55,8 +57,8 @@ var Prim = function (_grafo, _callback) {
   var corteA = [];
   var corteB = JSON.parse(JSON.stringify(grafo.vertices));
 
-  var posicao = Math.floor(Math.random() * grafo.vertices.length);
-  //var posicao = 1;
+  // var posicao = Math.floor(Math.random() * grafo.vertices.length);
+  var posicao = 0;
 
   console.log(posicao);
 
